@@ -9,4 +9,3 @@ do
         sbatch --mem=30G --time=30:00:00 --constraint="warlocks|wizards" --gres=gpu:1 --nodes=1 beocat_run_one.sh $env $seed
     done
 done
-
