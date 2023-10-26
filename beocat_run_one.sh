@@ -13,4 +13,5 @@ cd '/homes/rfali/workspace/beocat_tutorial/beocat'   # set correct path for code
 # WANDB_ENTITY=yourwandbusername
 # WANDB_API_KEY='long string'
 
-time python dqn.py --env-id $1 --seed $2 --total-timesteps 1000
+time python dqn.py --env-id $1 --seed $2 
+# --total-timesteps 1000
